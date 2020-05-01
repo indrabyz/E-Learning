@@ -1,0 +1,137 @@
+@CHARSET "UTF-8";
+.callbacks_tabs a:after {
+	content: "\f111";
+	font-size: 0;
+	font-family: FontAwesome;
+	visibility: visible;
+	display: block;
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	background: #fff;
+	border-radius:50px;
+}
+.callbacks_here a:after{
+	background:#000;
+}
+.callbacks_tabs a{
+	visibility:hidden;
+}
+.callbacks_tabs li{
+	display:inline-block;
+}
+ul.callbacks_tabs.callbacks1_tabs {
+	position: absolute;
+	bottom: 14px;
+	z-index: 999;
+	left: 45%;
+}
+.banner{
+	border-bottom:1px solid #bcbcbc;
+	padding: 1em 0;
+}
+.banner-mat{
+	padding:0;
+}
+
+.slider {
+	position: relative;
+	width:100%;
+	height:100%;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+#menu{
+	width: 90%;
+	min-height: 50px; 
+	height: auto;
+	padding: 0px 0px 0px 10px;
+	background-color: #109DE0;
+	margin: 10px auto; 
+	color: #fff !important;
+}
+#menu a{
+	color:#fff;
+	text-decoration: none;
+}
+#menu a:hover{
+	color: #109DE0;
+}
+#menu ul{
+	float: left;
+}
+#menu ul li{
+	float: left;
+	font-size: 17px;
+	font-family:"Trebuchet MS";
+}
+.jumbotron{
+background-image:url(../images/berita/a.jpg);
+	width: 90%;
+	height:310px;
+	margin: 0px auto;
+}
+.page{
+	width: 90%;
+	min-height: 500px;
+	height: auto;
+	margin: 0px auto;
+}
+.panel-footer h6{
+	text-align: center;
+}
+.blog-title{
+	font-size: 65px;
+}
+.blog-description{
+	color: #777;
+}
+#admin-wrapper{
+	width: 75%;
+	min-height: 400px;
+	height: auto;
+	background-color: #4BA7E2;
+	margin: 40px auto;
+	border-radius: 10px;
+}
+#login-wrapper{
+	width: 98%;
+	min-height: 380px;
+	background-color: #fff;
+	margin: 10px auto;
+	border-radius: 10px;
+}
+#login-wrapper h3{
+	text-align: center;
+}
+#login-wrapper form{
+	width: 400px;
+	margin-left: 80px;
+}

@@ -1,0 +1,12 @@
+#src_list, #over_list, #out_list {width:20px;}
+.alignPreview {border:1px solid #000; width:40px; height:40px; overflow:hidden; padding:5px;}
+.checkbox {border:0;}
+.panel_wrapper div.current {height:205px;}
+#prev {margin:0; border:1px solid #000; width:200px; height:100px; overflow:auto;}
+#align, #classlist {width:150px;}
+#width, #height { width:25px; text-align:center;}
+#vspace, #hspace, #border {vertical-align:middle; width:25px; text-align:center;}
+#class_list {width:50px;}
+input {width: 50px;}
+#constrain, #onmousemovecheck {width:auto;}
+#id, #dir, #lang, #usemap, #longdesc {width:50px;}
